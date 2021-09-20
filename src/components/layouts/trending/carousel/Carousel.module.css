@@ -1,0 +1,36 @@
+.sliderContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.sliderContainer a {
+  background: #9ca0a4;
+  padding: 0.1em 1.4em;
+  margin: 0em 0.2em;
+}
+
+.carousel__slide {
+  display: none;
+}
+
+.carouselContainer {
+  display: flex;
+  width: 98vw;
+  max-width: 1600px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  padding: 0em 1em;
+}
+
+.carousel__slideActive {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 1em;
+  font-weight: 600;
+  color: #140f38;
+}

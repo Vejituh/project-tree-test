@@ -1,0 +1,83 @@
+.upperDiv {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 100%;
+  border-bottom: 1px solid #433f60;
+  padding: 3em 0em;
+}
+
+
+.upperDiv div div:last-of-type {
+  margin-top: 3em;
+}
+
+.newsletter,
+.contact,
+.social {
+  flex-grow: 1;
+  padding: 1em;
+  max-width: 400px;
+}
+
+.newsletter,
+.contact,
+.social {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.newsletter div {
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+
+.newsletter input {
+  padding: 0.9em 1em;
+  border-radius: 5px;
+  border: 0;
+  width: 60%;
+}
+
+.newsletter a {
+  padding: 0.76em 1.4em;
+  height: 100%;
+  margin-left: 0.4em;
+  border-radius: 5px;
+  border: 0;
+  background: var(--secondary-colour);
+}
+
+.contact div:last-of-type {
+  border: 1px solid white;
+  height: max-content;
+  width: max-content;
+  padding: 0.6em 1.2em;
+  border-radius: 5px;
+}
+
+.socialIcon {
+  width: max-content;
+}
+
+.social img {
+  margin: 0 1em 0 0;
+  cursor: pointer;
+  height: 32px;
+}
+
+.social div div:first-of-type {
+  margin-top: 2.2em;
+}
+
+.services {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.services img {
+  height: 23px;
+}

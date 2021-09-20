@@ -1,0 +1,5 @@
+.starContainer {
+  max-height: 35px;
+  width: 60px;
+  display: flex;
+}

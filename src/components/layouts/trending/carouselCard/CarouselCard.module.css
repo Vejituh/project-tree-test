@@ -1,0 +1,54 @@
+.figure {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  align-items: center;
+}
+
+.figure img {
+  height: auto;
+  width: 100%;
+  max-width: 260px;
+  max-height: 260px;
+}
+
+.carouselPrice {
+  display: inline-block;
+  font-size: 1.05em;
+}
+
+.carouselPrice span:last-of-type {
+  font-size: 0.65em;
+  text-decoration-line: line-through;
+  display: inline-block;
+  margin-left: 0.5em;
+  color: #b0b3b6;
+}
+
+.carouselSlide__name {
+  font-size: 0.9em;
+}
+
+.trendingButtons {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.trendingButtons a li {
+  cursor: pointer;
+  font-size: .95em;
+  padding: 0.9em 1.3em;
+  border-radius: 5px;
+  margin: 0em 0.2em;
+}
+
+.trendingButtons a:first-of-type li:first-of-type {
+  background: #e9ecf1;
+  color: var(--secondary-colour);
+}
+
+.trendingButtons a:last-of-type li:last-of-type {
+  color: #fff;
+  background: var(--secondary-colour);
+}

@@ -1,0 +1,63 @@
+.container {
+  padding: 4em;
+  background: #140f38;
+  color: #fff;
+  width: 100%;
+  max-width: 1600px;
+  display: flex;
+  flex-direction: column;
+}
+
+.container h1 {
+  margin-left: 40px;
+}
+
+.childContainer {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.childContainer figure {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.childContainer figure img {
+  max-height: 120px;
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 1000px) {
+  .childContainer {
+    align-content: center;
+    justify-content: center;
+  }
+  .childContainer img {
+    max-height: 120px !important;
+  }
+}
+
+.childContainer div[id="Beanie with Logo"] {
+  order: 1;
+}
+
+.childContainer div[id="Hoodie with Zipper"] {
+  order: 2;
+}
+
+.childContainer div[id="Long Sleeve Tee"] {
+  order: 3;
+}
+
+.childContainer div[id="Logo Collection"] {
+  order: 4;
+}
+
+.childContainer div[id="Belt"] {
+  order: 5;
+}
