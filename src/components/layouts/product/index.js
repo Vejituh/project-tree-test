@@ -89,7 +89,6 @@ export default function Product({ data: products }) {
                 <button onClick={() => setQuantity(quantity - 1)}>-</button>
                 <input
                   type="number"
-                  mobile
                   value={quantity}
                   onChange={handleQuantity}
                 ></input>
