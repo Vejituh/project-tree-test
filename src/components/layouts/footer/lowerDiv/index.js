@@ -45,7 +45,7 @@ export default function LowerDiv() {
         </div>
       </div>
       <div className={styles.copyright}>
-        <span>&copy; Logoipsum. All Rights Reserved</span>
+        <span>Logoipsum. All Rights Reserved</span>
         <span>Created by Profiletree</span>
       </div>
     </div>
