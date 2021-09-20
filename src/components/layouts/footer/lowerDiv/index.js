@@ -31,7 +31,7 @@ export default function LowerDiv() {
             <ul>
               <li>Delivery</li>
               <li>Returns</li>
-              <li>FAQ's</li>
+              <li>FAQ&apos;s</li>
               <li>Blog</li>
             </ul>
           </div>
